@@ -1,0 +1,79 @@
+{
+  "feature": [
+    {
+      "name": "Age",
+      "type": "integer",
+      "min": 18,
+      "max": 100,
+      "description": "Patient age in years"
+    },
+    {
+      "name": "Gender",
+      "type": "integer",
+      "values": {
+        "0": "Male",
+        "1": "Female"
+      },
+      "description": "Patient gender"
+    },
+    {
+      "name": "Marital_status",
+      "type": "integer",
+      "values": {
+        "0": "Single",
+        "1": "Married",
+        "2": "Divorced",
+        "3": "Widowed"
+      },
+      "description": "Marital status"
+    },
+    {
+      "name": "Employment_status",
+      "type": "integer",
+      "values": {
+        "0": "Unemployed",
+        "1": "Employed",
+        "2": "Student",
+        "3": "Retired"
+      },
+      "description": "Employment status"
+    },
+    {
+      "name": "Region",
+      "type": "integer",
+      "min": 0,
+      "max": 10,
+      "description": "Geographic region code"
+    },
+    {
+      "name": "Prev_chronic_conditions",
+      "type": "integer",
+      "values": {
+        "0": "No",
+        "1": "Yes"
+      },
+      "description": "Previous chronic health conditions"
+    },
+    {
+      "name": "allergic_reaction",
+      "type": "integer",
+      "values": {
+        "0": "No",
+        "1": "Yes"
+      },
+      "description": "History of allergic reactions"
+    },
+    {
+      "name": "receiving_immu0therapy",
+      "type": "integer",
+      "values": {
+        "0": "No",
+        "1": "Yes"
+      },
+      "description": "Currently receiving immunotherapy"
+    }
+  ],
+  "model_type": "RandomForestClassifier",
+  "accuracy": 0.6709,
+  "created_at": "2025-11-26 00:19:51"
+}

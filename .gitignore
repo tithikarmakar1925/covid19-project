@@ -1,0 +1,49 @@
+﻿# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# NOTE: *.pkl files are INCLUDED in git (model files needed for deployment)
+# Only exclude very large model files if needed
+# *.pkl  <-- intentionally NOT excluded
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Reports
+reports/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
